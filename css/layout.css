@@ -5,6 +5,9 @@
 :root {
   --black: #000000;
   --white: #ffffff;
+  --green: #00FFBB;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
   --roboto: 'Roboto', sans-serif;
 }
 
