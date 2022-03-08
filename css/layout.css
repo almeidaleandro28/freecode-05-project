@@ -1,0 +1,41 @@
+/* === fonts === */
+/* == Roboto == */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,400&display=swap');
+/* ===================================== */
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --roboto: 'Roboto', sans-serif;
+}
+
+* {
+ box-sizing: border-box;
+}
+
+body, html {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+}
+/* ========================================== */
+
+/* ===  global === */
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+/* ======================================*/
+
+/* === header === */
+.header {
+
+}
+
+/* ==navbar == */
+#navbar {}
+#navbar ul {}
+#navbar ul li {}
+#navbar ul a {}
+/* ==================================== */
+
+/* welcome-section */
