@@ -73,6 +73,7 @@ h3{
 }
 #navbar ul a {
   color: var(--white);
+  font-family: var(--roboto);
   font-size: 1.563rem;
   text-decoration: none;
 }
