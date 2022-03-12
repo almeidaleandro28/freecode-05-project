@@ -47,9 +47,11 @@ h1{
 }
 h2{
   font-size: 2.441rem;
+  font-family: var(--roboto);
 }
 h3{
   font-size: 1.953rem;
+  font-family: var(--roboto);
 }
 
 /* ======================================*/
@@ -109,22 +111,23 @@ h3{
 #projects {
   background-color: var(--dark);
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 0.5rem;
   /* grid-template-rows: repeat(2, 1fr); */
   max-width: 100%;
   min-width: 334px;
-  background-color: red;
+  
   
 }
 .project-article {
   border-radius: 1rem;
   color: var(--white);
   text-align: center;
+  padding: 1rem
 }
 
 .project-article h3 {
-  
+  font-size: ;
 }
 
 .project {
@@ -133,7 +136,7 @@ h3{
 
 .project a img { 
   width: 100%;
-  object-fit: cover;
+  
 }
 
 /* === media querys === */
