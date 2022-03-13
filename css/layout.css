@@ -36,8 +36,9 @@ body {
 
 /* ===  global === */
 .container {
-  width: 70%;
+  width: 90%;
   max-width: 1200px;
+  min-width: 320px;
   margin: auto;
 }
 
@@ -60,9 +61,8 @@ h3{
 .header {
   background-color: var(--gray-dark);
   height: auto;
-  max-width: 100%;
-  min-width: 334px;
   width: 100%;
+  min-width: 334px;
 
 }
 
@@ -109,13 +109,14 @@ h3{
 
 /* === section projects=== */
 #projects {
-  background-color: var(--dark);
+  background-color: var(--gray-dark);
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   grid-gap: 0.5rem;
-  /* grid-template-rows: repeat(2, 1fr); */
-  max-width: 100%;
   min-width: 334px;
+  /* grid-template-rows: repeat(2, 1fr); */
+  width: 100%;
+  padding: 1rem
   
   
 }
@@ -123,21 +124,38 @@ h3{
   border-radius: 1rem;
   color: var(--white);
   text-align: center;
-  padding: 1rem
 }
 
 .project-article h3 {
-  font-size: ;
+  
 }
 
 .project {
   
 }
 
-.project a img { 
+.project  img { 
   width: 100%;
   
 }
+
+/*=== contacts===  */
+#contacts {
+  background-color: var(--gray-dark);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 334px;
+}
+
+.contacts-header h2 {
+  color: var(--white);
+}
+
+
+/* === footer === */
+
 
 /* === media querys === */
 
