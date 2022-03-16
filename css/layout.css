@@ -117,9 +117,8 @@ h3{
   /* grid-template-rows: repeat(2, 1fr); */
   width: 100%;
   padding: 1rem
-  
-  
 }
+
 .project-article {
   border-radius: 1rem;
   color: var(--white);
@@ -134,8 +133,9 @@ h3{
   
 }
 
-.project  img { 
+.project img { 
   width: 100%;
+  height: auto;
   
 }
 
@@ -153,6 +153,10 @@ h3{
   color: var(--white);
 }
 
+.contacts-social a img {
+  width: 28px;
+  height: 28px;
+}
 
 /* === footer === */
 
