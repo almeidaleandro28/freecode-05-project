@@ -20,12 +20,14 @@
 
 html {
   font-size: 100%;
+ 
 }
 
 body, 
 html {
   font-family: Arial, Helvetica, sans-serif;
   height: 100vh;
+  display: block;
 }
 
 body {
@@ -59,20 +61,27 @@ h3{
 
 /* === header === */
 .header {
-  background-color: var(--gray-dark);
-  height: auto;
-  width: 100%;
-  min-width: 334px;
+ 
 
 }
 
 /* ==navbar == */
 #navbar {
+  background-color: var(--gray-dark);
+  height: auto;
+  width: 100%;
+  min-width: 334px;
+
+  position: sticky;
+  top: 0;
+  
+  
 }
 #navbar ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
+ 
 }
 #navbar ul li {
   padding-bottom: 0.5rem;
@@ -168,5 +177,8 @@ h3{
   html {
     font-size: 50%;
   }
+}
 
+@media screen and ( max-width:) {
+  
 }
