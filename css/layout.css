@@ -84,16 +84,14 @@ h3{
  
 }
 #navbar ul li {
-  padding-bottom: 0.5rem;
-  padding-right: 0.5rem;
-  padding-top: 0.5rem;
+  padding: 0.5rem 0.5rem 0 0.5rem;
   text-transform: uppercase;
 }
 #navbar ul a {
   color: var(--white);
+  text-decoration: none;
   font-family: var(--roboto);
   font-size: 1.563rem;
-  text-decoration: none;
 }
 /* ==================================== */
 
@@ -122,8 +120,8 @@ h3{
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   grid-gap: 0.5rem;
-  min-width: 334px;
   /* grid-template-rows: repeat(2, 1fr); */
+  min-width: 334px;
   width: 100%;
   padding: 1rem
 }
@@ -132,6 +130,7 @@ h3{
   border-radius: 1rem;
   color: var(--white);
   text-align: center;
+  
 }
 
 .project-article h3 {
@@ -177,8 +176,8 @@ h3{
   html {
     font-size: 50%;
   }
+  .container {
+    width: 70%;
+  }
 }
 
-@media screen and ( max-width:) {
-  
-}
