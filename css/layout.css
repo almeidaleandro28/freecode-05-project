@@ -60,17 +60,14 @@ h3{
 /* ======================================*/
 
 /* === header === */
-.header {
- 
 
-}
 
 /* ==navbar == */
 #navbar {
   background-color: var(--gray-dark);
   height: auto;
-  width: 100%;
   min-width: 334px;
+  width: 100%;
 
   position: fixed;
   top: 0;
@@ -121,7 +118,7 @@ h3{
   background-color: var(--gray-dark);
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  grid-gap: 0.5rem;
+  grid-gap: 1rem;
   min-width: 334px;
   width: 100%;
   padding: 1rem
@@ -183,3 +180,8 @@ h3{
   }
 }
 
+@media screen and ( max-width: 1680px ) {
+  #projects {
+    
+  }
+}
