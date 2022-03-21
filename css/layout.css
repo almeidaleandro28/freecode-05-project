@@ -26,8 +26,8 @@ html {
 body, 
 html {
   font-family: Arial, Helvetica, sans-serif;
-  height: 100vh;
-  display: block;
+  height: auto;
+ 
 }
 
 body {
@@ -41,7 +41,7 @@ body {
   width: 90%;
   max-width: 1200px;
   min-width: 320px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 h1{
@@ -148,12 +148,13 @@ h3{
 
 /*=== contacts===  */
 #contacts {
+  align-items: center;
   background-color: var(--gray-dark);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   min-width: 334px;
+  padding: 2rem 0;
 }
 
 .contacts-header h2 {
@@ -181,7 +182,5 @@ h3{
 }
 
 @media screen and ( max-width: 1680px ) {
-  #projects {
-    
-  }
+ 
 }
