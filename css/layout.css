@@ -112,20 +112,18 @@ h3{
 /* === section projects=== */
 #projects {
   background-color: var(--gray-dark);
-  /* display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  grid-gap: 1rem;
-  min-width: 334px; */
+  height: 600px;
   width: 100%;
   padding: 1rem;
   min-width: 334px; 
 }
 
 .container {
+  height: 100%;
   margin: 0 auto;
   width: 70%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
 }
 
@@ -134,21 +132,23 @@ h3{
   color: var(--white);
   text-align: center;
   flex: 1;
+
   
 }
 
 .project-article h3 {
-  
+  word-wrap: break-word;
 }
 
 .project {
-  
+  text-align: center;
 }
 
 .project img { 
   max-width: 100%;
-  display: block;
+  
   height: auto;
+ 
   
 }
 
@@ -183,8 +183,16 @@ h3{
   html {
     font-size: 50%;
   }
+
+  #projects {
+    height: auto;
+  }
   .container {
     width: 90%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
   }
 }
 
