@@ -99,6 +99,7 @@ h3{
   background-color: var(--gray-dark);
   max-width: 100%;
   min-width: 334px;
+  padding-top: 10rem;
   width: 100%;
 }
 #welcome-section h1 {
@@ -154,7 +155,7 @@ h3{
   flex-direction: column;
   justify-content: center;
   min-width: 334px;
-  padding: 2rem 0;
+  padding: 4rem 0;
 }
 
 .contacts-header h2 {
@@ -162,6 +163,7 @@ h3{
 }
 
 .contacts-social a img {
+  margin-top: 2rem;
   width: 28px;
   height: 28px;
 }
